@@ -3,18 +3,25 @@ body{
 }
 
 .menu {
-  background-color:purple;
+  background-color: #000000;
   overflow:hidden;
 }
 
 .menu a{
-
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 13px 9px;
+  text-decoration: none;
+  font-size: 10px
 }
 
 .menu a:hover{
-
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .menu a:active{
-
+  background-color: #c442fc;
+  color: #ffffff;
 }

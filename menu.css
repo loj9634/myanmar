@@ -1,9 +1,10 @@
 body{
-  margin:0;
+
 }
 
 .menu {
   background-color: #000000;
+  margin:0;
   overflow:hidden;
 }
 

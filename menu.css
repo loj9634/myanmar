@@ -1,27 +1,27 @@
+body{
+  margin:0;
+}
+
 .menu {
   background-color: #000000;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+  overflow:hidden;
 }
 
-li a{
-  color: #ffffff;
+.menu a{
   float: left;
-  display: block;
+  color: #ffffff;
   text-align: center;
   padding: 13px 9px;
-  font-size: 10px;
   text-decoration: none;
+  font-size: 10px
 }
 
-li a:hover:not(.active){
+.menu a:hover{
   background-color: #ffffff;
   color: #000000;
 }
 
-.active{
+.menu a.active{
   background-color: #c442fc;
   color: #ffffff;
 }

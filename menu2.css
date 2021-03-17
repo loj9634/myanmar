@@ -13,6 +13,9 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  border-down: 1px solid #D4AF37
+
+  
 }
 
 .menu a {
@@ -35,4 +38,4 @@ body {
 }
 
 
-D4AF37
+

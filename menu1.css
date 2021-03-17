@@ -17,7 +17,7 @@ body {
 }
 
 .menu a {
-  color: #ff0000;
+  color: #FFFFFF;
   float: left;
   text-align: center;
   padding: 7px 9px;
@@ -28,7 +28,7 @@ body {
 
 .menu a:hover {
   background-color: #ffffff;
-  color: #000000;
+  color: #FF0000;
 }
 
 .menu a.active {

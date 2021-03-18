@@ -9,17 +9,18 @@ body {
 }
 
 .menu {
-  background-color: #000000;
-  background-image: linear-gradient(90deg, rgba(175,175,175,1) 0%, rgba(117,116,116,1) 100%);
+  background-color: #0b6623;
+  background-image: linear-gradient(90deg, #0b6623 0%, #0b6623 100%);
   font-family: 'Open Sans', serif;
   overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
+  border-bottom: 5px solid #D4AF37;
 }
 
 .menu a {
-  color: #FFFFFF;
+  color: #ffffff;
   float: left;
   text-align: center;
   padding: 7px 9px;
@@ -33,6 +34,6 @@ body {
 }
 
 .menu a.active {
-  background-color: #757474;
+  background-color: #073d15;
   color: #ffffff;
 }

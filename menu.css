@@ -5,14 +5,17 @@ body {
 .content {
   padding: 20px;
   margin-top: 5px;
+  font-family: 'Lora', serif;
 }
 
 .menu {
-  background-color: #000000;
+  background-color: #0b6623;
+  font-family: 'Lora', serif;
   overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
+  border-bottom: 5px solid #D4AF37;
 }
 
 .menu a {
@@ -22,15 +25,14 @@ body {
   padding: 7px 9px;
   text-decoration: none;
   font-size: 16px;
-  border-right: 1px solid #ff0000
 }
 
 .menu a:hover {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #118a30;
+  color: #ffffff;
 }
 
 .menu a.active {
-  background-color: #c442fc;
+  background-color: #073d15;
   color: #ffffff;
 }

@@ -8,3 +8,8 @@ body {
   width: 50%;
   font-family: 'Lora', serif;
 }
+
+.space {
+  float: right;
+  padding: 5px 10px 5px 5px;
+}
